@@ -1,90 +1,92 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🧾 Vaccination Tracker  
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A simple, responsive **web-based Vaccination Tracker** designed to help individuals and families keep track of their vaccines, receive reminders, and access reliable health information.  
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+This project is built using **HTML, CSS, and JavaScript** with a modern, clean UI.  
+
+---
+## 🌐 Live Demo  
+
+👉 Check out the project live here:  
+[**Vaccination Tracker – Live Site**](https://girmay18.github.io/vaccination-tracker-static-page/)  
+
+---
+## 🚀 Features  
+
+- ✅ **Homepage** – Introduction to the platform with a hero banner and feature highlights.  
+- ✅ **About Page** – Project mission, vision, and team details.  
+- ✅ **Vaccines Page** – Overview of common vaccines and their purposes.  
+- ✅ **Resources Page** – FAQs and links to trusted health organizations (WHO, CDC, UNICEF).  
+- ✅ **Contact Page** – Contact form for user inquiries.  
+- ✅ **Reusable Components** – Consistent header, footer, and design across all pages.  
+- ✅ **Responsive Design** – Mobile-friendly and accessible.  
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 📂 Project Structure  
 
-Before you write any code, take time to plan:
+```plaintext
+vaccination-tracker/
+│── index.html          # Home page
+│── about.html          # About page
+│── vaccines.html       # Vaccines information
+│── resources.html      # Resources & FAQs
+│── contact.html        # Contact form
+│
+├── css/
+│   └── style.css       # Main stylesheet
+│
+├── js/
+│   └── script.js       # Contact form validation & image slider
+│
+├── assets/
+│   └── images/         # Project images (hero banners, vaccine images, etc.)
+│
+└── README.md           # Documentation
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 🛠️ Technologies Used  
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+- **HTML5** – Semantic markup for structure  
+- **CSS3** – Styling with responsive design  
+- **JavaScript (Vanilla JS)** – Form validation and interactive components  
+- **Google Fonts (Poppins)** – Clean modern typography  
+- **Font Awesome** – Icons for UI enhancement  
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## ⚙️ Setup & Usage  
 
-Once your project is complete, choose a method to **host your site online**.
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/vaccination-tracker.git
+   cd vaccination-tracker
+2. ** Open the project in a browser**
+Simply open index.html in your favorite browser.
 
-You can use:
+(Optional) If using a live server (like VS Code’s Live Server), run:
+npx live-server
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+🌍 Resources & References
 
-Deploy your project and confirm that:
+World Health Organization (WHO)
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Centers for Disease Control and Prevention (CDC)
 
-**Goal:** Publish your work online and make it accessible to the world.
+UNICEF – Immunization
 
----
+Future Improvements
 
-## Deliverables
+ Add user login & signup system
 
-1. A GitHub repository containing:
+ Store vaccination records in a database
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+ Implement smart reminders with notifications
 
----
+ Multi-language support
 
-## Outcome
+ 👨‍💻 Author
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Girmay – Developer & Project Creator
